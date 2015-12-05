@@ -1,0 +1,25 @@
+#!/usr/bin/python
+wordList=[]
+
+def read_and_save(filepath):
+    data = [x.strip().split('\t') for x in open(filepath, 'r').readlines()]
+    for row in data:
+        if '#' in  row[0]:
+            continue
+        #print row
+        score= row[2] - row[3]
+        newrow=row[4].split()
+        print newrow
+        j=0
+        for w in newrow:
+#        while newrow[j].find('#') > 0:
+            word=w[:w.find('#')]
+            wordList.append((word, score)
+
+
+
+
+read_and_save('home/swn/www/admin/dump/SentiWordNet_3.0.0_20130122.txt')
+
+for i in range(10):
+    print wordList[i]

@@ -1,0 +1,38 @@
+links
+------
+https://www.continuum.io/downloads
+https://github.com/adityajoshi5/LearnSentiment
+http://sentiwordnet.isti.cnr.it/download.php
+
+sentiwordnet
+------------
+
+POS : Part of speech
+   a : adjective
+   n : noun
+
+*pickle : serialize python objects
+improve the 1st sentiment analyzer : remove punctions, stopword
+
+
+*steps:
+obtain text
+fold case
+remove punctuations, numbers
+remove unnecessary words (stopwords)
+stem to root word
+Collect TOkens
+Process
+Code file: parseSentiWordNet.py
+
+After Tea Break
+--------------
+FB Groups DataSceienceGrup, Pythoneers.Hyderabad
+scikit learn documentation
+
+Create feature vector from input file
+
+python new module: dict vectorizer
+
+
+svm.SVC pythonprogramming.com/net recognize digit 9 -- just showed how to use fit and predict
